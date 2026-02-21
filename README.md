@@ -3,7 +3,7 @@
 A Machine Learning web application that predicts the final score of a cricket innings
 based on powerplay statistics and venue data.
 
-Built as a Data Science project by **Tahreem Malik (023-23-0113)**
+Built as a Data Science project by **Tahreem Malik**
 
 ---
 # Overview of the Project
