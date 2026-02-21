@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Score Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="header">
+        <h1>🏏 Cricket Score Predictor</h1>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <!-- Left Panel: Input Form -->
+            <section class="panel input-panel">
+                <h2>Input Parameters</h2>
+                <form id="predictForm" class="input-form">
+                    <div class="form-group">
+                        <label for="ppRuns">Powerplay Runs (30–70)</label>
+                        <div class="input-row">
+                            <input type="range" id="ppRuns" name="pp_runs" min="30" max="70" value="50" step="1">
+                            <input type="number" id="ppRunsNum" min="30" max="70" value="50" step="1">
+                        </div>
+                        <span id="ppRunsWarn" class="warn hidden"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="ppWkts">Powerplay Wickets (0–3)</label>
+                        <div class="input-row">
+                            <input type="range" id="ppWkts" name="pp_wkts" min="0" max="3" value="1" step="1">
+                            <input type="number" id="ppWktsNum" min="0" max="3" value="1" step="1">
+                        </div>
+                        <span id="ppWktsWarn" class="warn hidden"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="venueAvg">Venue Average (140–190)</label>
+                        <div class="input-row">
+                            <input type="range" id="venueAvg" name="venue_avg" min="140" max="190" value="165" step="1">
+                            <input type="number" id="venueAvgNum" min="140" max="190" value="165" step="1">
+                        </div>
+                        <span id="venueAvgWarn" class="warn hidden"></span>
+                    </div>
+                    <div class="button-row">
+                        <button type="submit" id="predictBtn" class="btn btn-primary">Predict Score</button>
+                        <button type="button" id="resetBtn" class="btn btn-secondary">Reset</button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Right Panel: Results -->
+            <section class="panel results-panel">
+                <h2>Predictions</h2>
+                <div id="resultsContainer" class="results-container hidden">
+                    <div class="cards-row">
+                        <div class="card" id="lrCard">
+                            <h3>Linear Regression</h3>
+                            <div class="score-value" id="lrScore">—</div>
+                            <span class="badge" id="lrR2">R² —</span>
+                            <p class="score-label" id="lrLabel">—</p>
+                        </div>
+                        <div class="card" id="rfCard">
+                            <h3>Random Forest</h3>
+                            <div class="score-value" id="rfScore">—</div>
+                            <span class="badge" id="rfR2">R² —</span>
+                            <p class="score-label" id="rfLabel">—</p>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="barChart"></canvas>
+                    </div>
+                </div>
+                <p id="placeholderText" class="placeholder">Enter values and click "Predict Score" to see results.</p>
+            </section>
+        </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

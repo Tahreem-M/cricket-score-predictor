@@ -1,0 +1,221 @@
+team1,team2,venue,toss_winner,toss_decision,winner
+Sri Lanka,Pakistan,Melbourne,Bangladesh,bat,Pakistan
+England,Pakistan,Dhaka,Pakistan,field,Pakistan
+New Zealand,South Africa,Melbourne,New Zealand,bat,New Zealand
+Sri Lanka,England,Dhaka,South Africa,field,Sri Lanka
+Pakistan,India,London,Australia,field,India
+Bangladesh,India,Lahore,New Zealand,bat,India
+New Zealand,Pakistan,Lahore,South Africa,bat,New Zealand
+New Zealand,South Africa,Cape Town,England,field,South Africa
+Sri Lanka,Australia,Colombo,New Zealand,field,Sri Lanka
+India,New Zealand,Cape Town,Sri Lanka,bat,India
+Pakistan,South Africa,Cape Town,Australia,bat,South Africa
+Sri Lanka,England,Cape Town,South Africa,bat,Sri Lanka
+Pakistan,England,Cape Town,South Africa,bat,Pakistan
+Pakistan,England,Cape Town,South Africa,bat,Pakistan
+Bangladesh,England,Auckland,England,field,England
+New Zealand,England,Lahore,New Zealand,field,New Zealand
+England,South Africa,Cape Town,England,field,South Africa
+Bangladesh,South Africa,Dhaka,Bangladesh,field,South Africa
+Bangladesh,Pakistan,Lahore,India,bat,Pakistan
+Pakistan,Bangladesh,Lahore,India,bat,Pakistan
+South Africa,India,Mumbai,Bangladesh,bat,India
+New Zealand,Sri Lanka,Auckland,New Zealand,field,Sri Lanka
+India,England,Cape Town,Sri Lanka,field,India
+Bangladesh,Australia,Melbourne,England,bat,Australia
+England,Sri Lanka,London,Australia,bat,Sri Lanka
+South Africa,India,Colombo,South Africa,field,India
+South Africa,Australia,Dhaka,South Africa,field,Australia
+India,Australia,Melbourne,New Zealand,bat,Australia
+Bangladesh,Australia,Auckland,Sri Lanka,bat,Australia
+England,Pakistan,London,India,field,England
+New Zealand,South Africa,Auckland,India,bat,South Africa
+Australia,England,Dhaka,South Africa,bat,England
+England,Australia,Lahore,New Zealand,bat,England
+India,New Zealand,London,England,field,New Zealand
+South Africa,Australia,Lahore,India,field,South Africa
+New Zealand,Pakistan,Dhaka,England,field,Pakistan
+England,Sri Lanka,Melbourne,Sri Lanka,field,Sri Lanka
+Australia,South Africa,Dhaka,India,field,South Africa
+Australia,Bangladesh,Melbourne,India,field,Bangladesh
+Pakistan,South Africa,London,Pakistan,field,South Africa
+Pakistan,Australia,London,India,bat,Australia
+Sri Lanka,South Africa,Cape Town,Bangladesh,bat,South Africa
+India,New Zealand,Auckland,Australia,bat,New Zealand
+Bangladesh,Australia,Cape Town,Bangladesh,bat,Bangladesh
+England,Pakistan,Auckland,New Zealand,bat,Pakistan
+England,India,Cape Town,New Zealand,bat,India
+Bangladesh,England,Lahore,England,bat,Bangladesh
+Sri Lanka,Bangladesh,London,Bangladesh,field,Sri Lanka
+South Africa,Sri Lanka,Melbourne,Bangladesh,field,Sri Lanka
+South Africa,Pakistan,Auckland,Bangladesh,bat,South Africa
+Sri Lanka,South Africa,Dhaka,Sri Lanka,bat,Sri Lanka
+South Africa,Bangladesh,Auckland,India,field,Bangladesh
+Pakistan,Bangladesh,Melbourne,Australia,bat,Pakistan
+England,Bangladesh,Cape Town,England,bat,England
+Sri Lanka,Australia,Auckland,Bangladesh,field,Australia
+England,New Zealand,Colombo,Bangladesh,bat,New Zealand
+Bangladesh,Australia,Lahore,Pakistan,field,Bangladesh
+Australia,South Africa,London,England,bat,Australia
+Pakistan,Australia,Melbourne,Bangladesh,field,Australia
+New Zealand,India,London,England,field,India
+Pakistan,England,Colombo,India,field,England
+Sri Lanka,England,Auckland,Pakistan,bat,England
+New Zealand,South Africa,Auckland,England,field,New Zealand
+Australia,Sri Lanka,Dhaka,Australia,bat,Australia
+Sri Lanka,India,Colombo,Australia,bat,India
+India,Pakistan,Melbourne,New Zealand,bat,India
+England,Australia,Dhaka,Pakistan,bat,Australia
+Australia,New Zealand,Lahore,Pakistan,field,New Zealand
+England,Australia,Dhaka,New Zealand,field,England
+South Africa,Bangladesh,Mumbai,England,bat,South Africa
+India,Australia,Melbourne,Pakistan,bat,India
+India,Pakistan,Mumbai,Australia,field,India
+Australia,South Africa,Colombo,Australia,bat,South Africa
+India,South Africa,Cape Town,Bangladesh,field,South Africa
+New Zealand,India,Mumbai,India,bat,New Zealand
+India,England,Lahore,Pakistan,bat,England
+England,South Africa,Dhaka,England,field,South Africa
+England,Sri Lanka,Cape Town,New Zealand,bat,Sri Lanka
+Sri Lanka,New Zealand,Dhaka,New Zealand,field,New Zealand
+England,Bangladesh,Mumbai,England,bat,Bangladesh
+Sri Lanka,Australia,Dhaka,Sri Lanka,bat,Australia
+England,Australia,Colombo,South Africa,bat,Australia
+New Zealand,Pakistan,Cape Town,India,field,Pakistan
+Bangladesh,South Africa,Colombo,New Zealand,bat,Bangladesh
+Sri Lanka,India,Mumbai,Pakistan,bat,Sri Lanka
+Pakistan,New Zealand,Colombo,India,bat,Pakistan
+South Africa,England,Lahore,Pakistan,bat,South Africa
+Australia,India,Mumbai,Sri Lanka,field,India
+England,Bangladesh,Mumbai,Australia,field,Bangladesh
+India,South Africa,Mumbai,India,bat,India
+Bangladesh,Pakistan,Melbourne,Bangladesh,field,Bangladesh
+England,Sri Lanka,Dhaka,New Zealand,bat,England
+India,England,Melbourne,India,bat,India
+South Africa,Sri Lanka,Melbourne,India,bat,Sri Lanka
+South Africa,Pakistan,Lahore,India,field,Pakistan
+South Africa,Bangladesh,Cape Town,South Africa,field,Bangladesh
+India,Pakistan,Dhaka,India,field,India
+England,Australia,Colombo,Pakistan,field,England
+South Africa,Sri Lanka,Auckland,Australia,field,Sri Lanka
+New Zealand,South Africa,Mumbai,Sri Lanka,field,New Zealand
+Sri Lanka,Bangladesh,Colombo,England,field,Sri Lanka
+India,New Zealand,Mumbai,India,field,New Zealand
+India,England,Lahore,New Zealand,field,England
+England,India,Mumbai,India,bat,India
+India,South Africa,Melbourne,New Zealand,field,South Africa
+India,South Africa,Dhaka,Pakistan,field,South Africa
+South Africa,Pakistan,Auckland,New Zealand,field,Pakistan
+England,Sri Lanka,London,Bangladesh,field,Sri Lanka
+South Africa,Bangladesh,Mumbai,England,field,Bangladesh
+Sri Lanka,Bangladesh,Colombo,Australia,field,Sri Lanka
+Bangladesh,Australia,Melbourne,New Zealand,field,Australia
+Sri Lanka,Australia,London,New Zealand,field,Sri Lanka
+Bangladesh,England,Auckland,Australia,field,England
+South Africa,Pakistan,London,England,field,South Africa
+Sri Lanka,South Africa,Melbourne,India,field,South Africa
+England,Bangladesh,Dhaka,New Zealand,bat,Bangladesh
+Australia,New Zealand,Dhaka,Australia,bat,Australia
+South Africa,Pakistan,Cape Town,Bangladesh,field,South Africa
+Bangladesh,England,Dhaka,Bangladesh,field,Bangladesh
+New Zealand,England,Cape Town,Pakistan,bat,England
+Bangladesh,Pakistan,London,Australia,field,Pakistan
+New Zealand,England,Lahore,Pakistan,bat,New Zealand
+India,Pakistan,Colombo,Bangladesh,bat,India
+Sri Lanka,India,Colombo,England,bat,Sri Lanka
+New Zealand,Pakistan,London,India,bat,New Zealand
+Bangladesh,Sri Lanka,Mumbai,Australia,bat,Sri Lanka
+India,Pakistan,Mumbai,Sri Lanka,field,India
+Australia,England,Dhaka,Bangladesh,bat,England
+England,Bangladesh,Colombo,Bangladesh,field,Bangladesh
+England,Sri Lanka,Colombo,Sri Lanka,field,Sri Lanka
+England,Australia,Cape Town,South Africa,bat,England
+New Zealand,Australia,Lahore,Bangladesh,bat,Australia
+Australia,Bangladesh,Melbourne,New Zealand,field,Bangladesh
+New Zealand,Bangladesh,Mumbai,England,bat,New Zealand
+Sri Lanka,Bangladesh,Colombo,Australia,bat,Bangladesh
+New Zealand,Sri Lanka,Cape Town,Sri Lanka,field,New Zealand
+Australia,India,Auckland,New Zealand,field,India
+Australia,Bangladesh,Cape Town,Sri Lanka,bat,Bangladesh
+Sri Lanka,Australia,Mumbai,Australia,field,Sri Lanka
+Australia,Pakistan,Mumbai,Pakistan,bat,Pakistan
+Bangladesh,England,Cape Town,Australia,bat,England
+Australia,Sri Lanka,Melbourne,South Africa,bat,Sri Lanka
+England,Australia,London,Australia,field,Australia
+Bangladesh,India,Mumbai,Australia,field,Bangladesh
+Bangladesh,Sri Lanka,Cape Town,South Africa,field,Sri Lanka
+Sri Lanka,New Zealand,Colombo,England,field,Sri Lanka
+Pakistan,South Africa,Cape Town,Bangladesh,field,South Africa
+Pakistan,India,Lahore,Australia,bat,Pakistan
+Australia,Pakistan,London,South Africa,bat,Australia
+Bangladesh,Sri Lanka,Auckland,New Zealand,bat,Bangladesh
+Pakistan,England,Melbourne,Pakistan,bat,Pakistan
+Pakistan,Bangladesh,Dhaka,Pakistan,field,Bangladesh
+Australia,India,Auckland,Australia,bat,India
+Pakistan,Bangladesh,London,England,field,Pakistan
+New Zealand,Australia,London,England,bat,New Zealand
+India,England,London,New Zealand,field,India
+Sri Lanka,England,Auckland,Australia,field,England
+India,Australia,Colombo,Pakistan,bat,India
+Australia,India,London,England,bat,Australia
+England,Australia,Cape Town,Australia,bat,Australia
+Sri Lanka,Bangladesh,Auckland,Sri Lanka,bat,Bangladesh
+Australia,South Africa,Dhaka,England,field,Australia
+Bangladesh,England,London,South Africa,bat,Bangladesh
+England,New Zealand,Cape Town,Sri Lanka,bat,England
+India,New Zealand,Colombo,Bangladesh,field,New Zealand
+Australia,Bangladesh,Lahore,England,bat,Australia
+Bangladesh,Pakistan,Colombo,Pakistan,bat,Pakistan
+Sri Lanka,New Zealand,Dhaka,India,bat,New Zealand
+Sri Lanka,Australia,London,Sri Lanka,bat,Australia
+South Africa,Australia,Dhaka,Bangladesh,bat,South Africa
+Bangladesh,Pakistan,Auckland,New Zealand,field,Bangladesh
+New Zealand,Pakistan,Mumbai,New Zealand,bat,New Zealand
+Pakistan,Bangladesh,London,Pakistan,bat,Pakistan
+England,Bangladesh,Mumbai,England,bat,England
+Bangladesh,Pakistan,Cape Town,Australia,bat,Pakistan
+South Africa,England,Lahore,England,bat,South Africa
+Pakistan,Bangladesh,Melbourne,Pakistan,field,Bangladesh
+Pakistan,South Africa,Dhaka,New Zealand,bat,South Africa
+Australia,Bangladesh,Colombo,England,field,Bangladesh
+Pakistan,Australia,Lahore,New Zealand,field,Australia
+New Zealand,Bangladesh,London,Sri Lanka,bat,New Zealand
+Sri Lanka,England,Mumbai,Bangladesh,bat,Sri Lanka
+South Africa,Pakistan,Colombo,Australia,bat,Pakistan
+Pakistan,Australia,Mumbai,Sri Lanka,bat,Pakistan
+Australia,Bangladesh,Auckland,New Zealand,field,Bangladesh
+New Zealand,England,Mumbai,New Zealand,bat,New Zealand
+India,South Africa,Auckland,India,bat,India
+Sri Lanka,Bangladesh,Cape Town,India,bat,Sri Lanka
+Sri Lanka,England,Colombo,Sri Lanka,bat,England
+South Africa,India,Colombo,South Africa,bat,South Africa
+Sri Lanka,Pakistan,Melbourne,Sri Lanka,bat,Sri Lanka
+Pakistan,Bangladesh,London,India,field,Bangladesh
+Australia,South Africa,Auckland,New Zealand,field,South Africa
+Sri Lanka,Australia,Melbourne,Pakistan,bat,Sri Lanka
+Sri Lanka,Pakistan,Mumbai,Sri Lanka,bat,Sri Lanka
+India,Australia,Mumbai,New Zealand,bat,India
+India,New Zealand,Melbourne,Pakistan,field,India
+England,India,Colombo,Pakistan,bat,England
+New Zealand,Bangladesh,Mumbai,India,field,Bangladesh
+Pakistan,South Africa,Dhaka,Sri Lanka,bat,South Africa
+Sri Lanka,India,Cape Town,England,bat,India
+Bangladesh,India,Cape Town,Australia,bat,Bangladesh
+Sri Lanka,South Africa,Dhaka,India,bat,South Africa
+Australia,Pakistan,Melbourne,India,field,Australia
+England,Bangladesh,Dhaka,England,field,England
+New Zealand,Pakistan,Auckland,Australia,bat,New Zealand
+Bangladesh,Australia,Auckland,New Zealand,bat,Australia
+England,Pakistan,Melbourne,South Africa,field,England
+South Africa,Australia,Dhaka,Sri Lanka,field,Australia
+New Zealand,England,Auckland,South Africa,field,New Zealand
+Sri Lanka,Australia,Colombo,New Zealand,field,Australia
+Sri Lanka,South Africa,Dhaka,Bangladesh,bat,South Africa
+New Zealand,Sri Lanka,Colombo,India,field,New Zealand
+Sri Lanka,Bangladesh,Auckland,Australia,bat,Bangladesh
+Pakistan,England,Cape Town,India,field,England
+New Zealand,Bangladesh,Auckland,Pakistan,field,New Zealand
+England,Bangladesh,Colombo,India,field,England
+New Zealand,Bangladesh,Lahore,India,field,New Zealand
+Bangladesh,Sri Lanka,London,New Zealand,field,Bangladesh
+Sri Lanka,Pakistan,Mumbai,New Zealand,bat,Sri Lanka

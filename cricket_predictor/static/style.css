@@ -1,0 +1,264 @@
+/* Cricket Score Predictor - Dark Cricket Theme */
+
+:root {
+    --bg-dark: #1a2e1a;
+    --panel-bg: #0d1a0d;
+    --accent-gold: #f0c040;
+    --text-white: #ffffff;
+    --text-muted: #b0c4b0;
+    --border-subtle: #2d4a2d;
+    --error: #e74c3c;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg-dark);
+    color: var(--text-white);
+    margin: 0;
+    min-height: 100vh;
+}
+
+.header {
+    background: var(--panel-bg);
+    padding: 1.25rem 2rem;
+    border-bottom: 3px solid var(--accent-gold);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.main {
+    padding: 2rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.panel {
+    background: var(--panel-bg);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 1.5rem;
+}
+
+.panel h2 {
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    color: var(--accent-gold);
+}
+
+/* Input Form */
+.input-form .form-group {
+    margin-bottom: 1.25rem;
+}
+
+.input-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.input-row {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.input-row input[type="range"] {
+    flex: 1;
+    height: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: var(--border-subtle);
+    border-radius: 4px;
+}
+
+.input-row input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    background: var(--accent-gold);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.input-row input[type="number"] {
+    width: 70px;
+    padding: 0.5rem;
+    background: var(--bg-dark);
+    border: 1px solid var(--border-subtle);
+    border-radius: 4px;
+    color: var(--text-white);
+    font-size: 1rem;
+}
+
+.input-row input[type="number"]:focus {
+    outline: none;
+    border-color: var(--accent-gold);
+}
+
+.warn {
+    color: var(--error);
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+}
+
+.warn.hidden {
+    display: none;
+}
+
+.button-row {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.btn-primary {
+    background: var(--accent-gold);
+    color: var(--panel-bg);
+}
+
+.btn-secondary {
+    background: var(--border-subtle);
+    color: var(--text-white);
+}
+
+/* Results Panel */
+.results-panel {
+    position: relative;
+}
+
+.results-container {
+    animation: fadeIn 0.4s ease;
+}
+
+.results-container.hidden {
+    display: none;
+}
+
+.placeholder {
+    color: var(--text-muted);
+    font-style: italic;
+    margin: 0;
+}
+
+.placeholder.hidden {
+    display: none;
+}
+
+.cards-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    background: var(--bg-dark);
+    border: 1px solid var(--border-subtle);
+    border-radius: 8px;
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.card h3 {
+    margin: 0 0 0.75rem;
+    font-size: 1rem;
+    color: var(--text-muted);
+}
+
+.score-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--accent-gold);
+    margin-bottom: 0.5rem;
+}
+
+.badge {
+    display: inline-block;
+    background: var(--border-subtle);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.score-label {
+    margin: 0.5rem 0 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.chart-container {
+    height: 200px;
+    padding: 0.5rem 0;
+}
+
+/* Loading spinner */
+.btn.loading {
+    position: relative;
+    color: transparent;
+}
+
+.btn.loading::after {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 50%;
+    left: 50%;
+    margin: -9px 0 0 -9px;
+    border: 2px solid var(--panel-bg);
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
